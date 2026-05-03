@@ -6,7 +6,6 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def root():
    return '''<form action="/qr" method="GET">
